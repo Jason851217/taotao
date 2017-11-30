@@ -68,7 +68,8 @@
                 <configuration>
                     <port>8081</port>
                     <path>/</path>
-                    <url>http://192.168.25.136:8080/manager/text</url>
+                    <!--tomcat管理控制台url-->
+                    <url>http://192.168.61.102:8080/manager/text</url>
                     <username>tomcat</username>
                     <password>tomcat</password>
                 </configuration>
