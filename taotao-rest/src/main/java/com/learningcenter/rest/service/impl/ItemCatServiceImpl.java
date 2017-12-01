@@ -3,7 +3,12 @@ package com.learningcenter.rest.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.learningcenter.common.utils.JsonUtils;
+import com.learningcenter.pojo.TbContent;
+import com.learningcenter.rest.dao.JedisClient;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.learningcenter.mapper.TbItemCatMapper;
@@ -28,6 +33,16 @@ public class ItemCatServiceImpl implements ItemCatService {
 
 	@Autowired
 	private TbItemCatMapper itemCatMapper;
+
+
+	@Autowired
+	private JedisClient jedisClient;
+
+
+	@Value("${INDEX_ITEMCAT_REDIS_KEY}")
+	private String index_itemcat_redis_key;
+
+
 	
 	@Override
 	public CatResult getItemCatList() {
@@ -46,12 +61,25 @@ public class ItemCatServiceImpl implements ItemCatService {
 	 * @return
 	 */
 	private List<?> getCatList(long parentId) {
-		//创建查询条件
-		TbItemCatExample example = new TbItemCatExample();
-		Criteria criteria = example.createCriteria();
-		criteria.andParentIdEqualTo(parentId);
-		//执行查询
-		List<TbItemCat> list = itemCatMapper.selectByExample(example);
+		//从缓存中取内容
+		String result ="";
+		List<TbItemCat> list =new ArrayList<>();
+		try {
+		   result = jedisClient.hget(index_itemcat_redis_key,parentId+"");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		if(!StringUtils.isBlank(result)){
+				list=JsonUtils.jsonToList(result, TbItemCat.class);
+		}else{
+			//创建查询条件
+			TbItemCatExample example = new TbItemCatExample();
+			Criteria criteria = example.createCriteria();
+			criteria.andParentIdEqualTo(parentId);
+			//执行查询
+			list = itemCatMapper.selectByExample(example);
+			jedisClient.hset(index_itemcat_redis_key, parentId + "", JsonUtils.objectToJson(list));
+		}
 		//返回值list
 		List resultList = new ArrayList<>();
 		//向list中添加节点
