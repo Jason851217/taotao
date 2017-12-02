@@ -24,6 +24,14 @@
       192.168.61.107
 
 
+ Module:
+    taotao-common:主要是一些常用工具类
+    taotao-manager:网站后台
+    taotao-portal：网站前台，负责网站页面的显示(会调用taotao-rest，taotao-sso，taotao-search,taotao-order等模块)
+    taotao-rest:网站前台的数据接口 taotao-portal会通过httpclient调用
+    taotao-sso：负责单点登录的相关接口(网站登录时会使用) taotao-portal会通过httpclient调用
+    taotao-search: 负责整个网站搜索实现(网站搜索时会使用) taotao-portal会通过httpclient调用
+
 redis集群：
 
   1. yum -y install ruby
