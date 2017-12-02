@@ -24,6 +24,16 @@
       192.168.61.107
 
 
+
+  本地运行的话：
+    taotao-manager: http://localhost:8080
+    taotao-rest:    http://localhost:8081
+    taotao-portal:  http://localhost:8082
+    taotao-search:  http://localhost:8083
+    taotao-sso:     http://localhost:8084
+    taotao-order:   http://localhost:8085
+
+
  Module:
     taotao-common:主要是一些常用工具类
     taotao-manager:网站后台
