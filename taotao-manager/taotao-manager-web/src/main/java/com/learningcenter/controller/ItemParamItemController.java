@@ -13,7 +13,7 @@ import com.learningcenter.service.ItemParamItemService;
  * <p>Title: ItemParamItemController</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月5日下午4:23:21
  * @version 1.0
  */

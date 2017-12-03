@@ -13,7 +13,7 @@ import com.learningcenter.search.service.ItemService;
  * <p>Title: ItemController</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月11日下午2:50:45
  * @version 1.0
  */

@@ -40,7 +40,7 @@
 			<input type="hidden" name="orderItems[${status.index}].picPath" value="${cart.image}"/>
 		</c:forEach>
 		<input type="hidden" name="payment" value="<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${totalPrice/100 }"/>"/>
-		<input type="hidden" name="orderShipping.receiverName" value="入云龙"/>
+		<input type="hidden" name="orderShipping.receiverName" value="Jason"/>
 		<input type="hidden" name="orderShipping.receiverMobile" value="15891588888"/>
 		<input type="hidden" name="orderShipping.receiverState" value="北京"/>
 		<input type="hidden" name="orderShipping.receiverCity" value="北京"/>
@@ -79,7 +79,7 @@
 						<b></b>
 						<div class="user-name">
 							<div class="fl">
-								<strong limit="4">入云龙</strong>&nbsp;&nbsp;收
+								<strong limit="4">Jason</strong>&nbsp;&nbsp;收
 							</div>
 							<div class="fr">158****8888</div>
 							<div class="clr"></div>

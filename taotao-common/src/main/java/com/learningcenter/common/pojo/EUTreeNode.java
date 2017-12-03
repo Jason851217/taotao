@@ -4,7 +4,7 @@ package com.learningcenter.common.pojo;
  * <p>Title: EUTreeNode</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月4日上午9:13:14
  * @version 1.0
  */

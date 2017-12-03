@@ -18,7 +18,7 @@ import org.apache.commons.net.ftp.FTPReply;
  * <p>Title: FtpUtil</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年7月29日下午8:11:51
  * @version 1.0
  */

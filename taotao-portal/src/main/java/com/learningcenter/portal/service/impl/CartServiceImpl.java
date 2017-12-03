@@ -22,7 +22,7 @@ import com.learningcenter.portal.service.CartService;
  * <p>Title: CartServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月15日下午2:39:19
  * @version 1.0
  */

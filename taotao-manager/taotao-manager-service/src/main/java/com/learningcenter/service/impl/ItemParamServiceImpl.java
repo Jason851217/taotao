@@ -18,7 +18,7 @@ import com.learningcenter.service.ItemParamService;
  * <p>Title: ItemParamServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月5日下午2:36:57
  * @version 1.0
  */

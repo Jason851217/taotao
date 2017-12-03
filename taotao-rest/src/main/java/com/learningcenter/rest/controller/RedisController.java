@@ -14,7 +14,7 @@ import com.learningcenter.rest.service.RedisService;
  * <p>Title: RedisController</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月9日下午3:47:18
  * @version 1.0
  */

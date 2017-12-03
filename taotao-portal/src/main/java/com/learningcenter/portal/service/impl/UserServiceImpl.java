@@ -13,7 +13,7 @@ import com.learningcenter.portal.service.UserService;
  * <p>Title: UserServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月15日上午10:54:10
  * @version 1.0
  */

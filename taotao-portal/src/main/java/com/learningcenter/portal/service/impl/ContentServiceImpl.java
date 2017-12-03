@@ -19,7 +19,7 @@ import com.learningcenter.portal.service.ContentService;
  * <p>Title: ContentServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月8日下午5:08:38
  * @version 1.0
  */

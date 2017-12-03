@@ -18,7 +18,7 @@ import com.learningcenter.service.ItemCatService;
  * <p>Title: ItemCatServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月4日上午9:16:50
  * @version 1.0
  */

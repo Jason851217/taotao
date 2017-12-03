@@ -21,7 +21,7 @@ import com.learningcenter.portal.service.ItemService;
  * <p>Title: ItemServiceImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月12日下午2:41:57
  * @version 1.0
  */

@@ -21,7 +21,7 @@ import com.learningcenter.search.pojo.SearchResult;
  * <p>Title: SearchDaoImpl</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月11日下午3:26:25
  * @version 1.0
  */

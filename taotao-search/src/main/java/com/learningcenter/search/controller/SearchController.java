@@ -18,7 +18,7 @@ import com.learningcenter.search.service.SearchService;
  * <p>Title: SearchController</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月11日下午4:22:42
  * @version 1.0
  */

@@ -21,7 +21,7 @@ import com.learningcenter.portal.service.CartService;
  * <p>Title: CartController</p>
  * <p>Description: </p>
  * <p>Company: www.itcast.com</p> 
- * @author	入云龙
+ * @author	Jason
  * @date	2015年9月15日下午3:12:59
  * @version 1.0
  */
