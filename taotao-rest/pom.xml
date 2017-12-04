@@ -67,7 +67,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <configuration>
                     <port>8081</port>
-                    <path>/</path>
+                    <path>/</path><!--path:是远程发布的路径，这里的/表示发布到192.168.61.102:8080这个tomcat的Root目录-->
                     <!--tomcat管理控制台url，主要用来做远程deploy，需要配置权限-->
                     <url>http://192.168.61.102:8080/manager/text</url>
                     <username>tomcat</username>
